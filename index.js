@@ -8,7 +8,7 @@ const guessSubmit = document.querySelector(".guessSubmit");
 const guessField = document.querySelector(".guessField");
 let guessCount = 1;
 let resetButton;
-//function to check enter number
+//function to check enter numbergit 
 function checkGuess() {
   const userGuess = Number(guessField.value);
   if (guessCount === 1) {
@@ -40,7 +40,7 @@ function checkGuess() {
   guessField.value = "";
   guessField.focus();
 }
-
+//adding ebvent listener
 guessSubmit.addEventListener("click", checkGuess);
 
 function setGameOver() {
